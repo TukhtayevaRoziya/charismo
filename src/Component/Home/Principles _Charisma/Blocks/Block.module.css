@@ -1,0 +1,127 @@
+/* block */
+
+.block_1 {
+    width        : 30%;
+    margin-top   : 53px;
+    padding      : 43px 0 18px 18px;
+    box-sizing   : border-box;
+    border-radius: 5px;
+}
+
+.block_1:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* block in img */
+
+.Block_img img {
+    width: 60px;
+}
+
+/* title */
+
+.Block_Title h1 {
+    font-family: var(--main-font-family);
+    font-weight: bold;
+    font-size  : 20px;
+    line-height: 24px;
+    color      : var(--font-color2);
+}
+
+/* text */
+
+.Block_Text p {
+    width      : 85%;
+    font-family: var(--main-font-family);
+    font-size  : 16px;
+    line-height: 130%;
+    color      : var(--font-color);
+}
+
+
+@media (min-width:0) and (max-width:449.9px) {
+    .block_1 {
+        width     : 100%;
+        margin-top: 15px;
+        padding   : 10px 0 7px 10px;
+    }
+
+    /* title */
+
+    .Block_Title h1 {
+        font-size : 16px;
+        margin-top: 8px;
+    }
+
+    /* text */
+
+    .Block_Text p {
+        width    : 90%;
+        font-size: 10px;
+    }
+}
+
+@media (min-width:320px) and (max-width:449.9px) {
+    .block_1 {
+        width     : 100%;
+        margin-top: 15px;
+        padding   : 10px 0 7px 10px;
+    }
+}
+
+@media (min-width:450px) and (max-width:749.9px) {
+    /* block in img */
+
+    .Block_img img {
+        width        : 60px;
+        margin-bottom: 1rem;
+    }
+
+    /* title */
+
+    .Block_Title h1 {
+        margin-top : 10px;
+        font-size  : 18px;
+        line-height: 24px;
+        color      : var(--font-color2);
+    }
+
+    /* block */
+
+    .block_1 {
+        width     : 50%;
+        margin-top: 30px;
+        padding   : 20px 0 18px 18px;
+    }
+
+    .block_1:last-child {
+        width: 90%;
+    }
+
+    /* text */
+
+    .Block_Text p {
+        font-size  : 10px;
+        line-height: 16px;
+    }
+}
+
+@media (min-width:750px) and (max-width:1249.9px) {
+    /* block */
+
+    .block_1 {
+        width        : 30%;
+        margin-top   : 20px;
+        padding      : 18px 0 17px 15px;
+        box-sizing   : border-box;
+        border-radius: 5px;
+    }
+
+    /* text */
+
+    .Block_Text p {
+        font-size    : 14px;
+        line-height  : 22px;
+        margin-bottom: 0;
+    }
+}

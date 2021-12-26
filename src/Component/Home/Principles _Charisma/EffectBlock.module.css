@@ -1,0 +1,105 @@
+/* effect block */
+.effect_block {
+    width         : 25%;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    background    : linear-gradient(179.35deg, #F4F7FE 0.51%, rgba(244, 247, 254, 0) 99.4%);
+    border-radius : 10px;
+}
+
+.effect_title{
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.effect_text{
+    font-size: 15px;
+    text-align: center;
+    color: #b5acb5;
+    padding: 0 15px;
+}
+
+@media (min-width:0) and (max-width:449.9px) {
+
+    /* effect block */
+    .effect_block {
+        width: 95%;
+        margin-bottom: 2rem;
+    }
+
+    .effect_block img {
+        width: 100%;
+    }
+
+
+    .effect_title {
+        font-size  : 16px;
+        line-height: 0px;
+    }
+
+    .effect_text {
+        font-size  : 14px;
+        line-height: 20px;
+    }
+
+}
+
+@media (min-width:450px) and (max-width:749.9px) {
+    /* effect block */
+    .effect_block {
+        width: 45%;
+    }
+
+    .effect_block img{
+        width: 100%;
+    }
+
+    .effect_block:last-child{
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .effect_block:last-child .effect_title{
+        font-size  : 20px;
+    }
+
+    .effect_block:last-child .effect_text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .effect_title {
+        font-size  : 15px;
+        line-height: 10px;
+        padding: 0 20px;
+    }
+
+    .effect_text {
+        font-size  : 12px;
+        line-height: 18px;
+    }
+}
+
+@media (min-width:749.9px) and (max-width:1249.9px) {
+    /* effect block */
+    .effect_block {
+        width: 30%;
+    }
+
+    .effect_block img{
+        width: 100%;
+    }
+
+    .effect_title {
+        font-size  : 16px;
+        line-height: 0px;
+    }
+
+    .effect_text {
+        font-size  : 14px;
+        line-height: 20px;
+        padding-top: 5px;
+    }
+}

@@ -1,0 +1,118 @@
+.body {
+    display        : flex;
+    justify-content: center;
+    margin-top     : 101px;
+}
+
+.our_partners {
+    width: 85%;
+}
+
+.title {
+    font-family: Inter, sans-serif;
+    font-style : normal;
+    font-weight: bold;
+    font-size  : 42px;
+    line-height: 50px;
+    color      : #304560;
+}
+
+.text {
+    font-family: Times New Roman;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 20px;
+    line-height: 26px;
+    color      : #728399;
+}
+
+.partners_icon {
+    width          : 100%;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    overflow       : auto;
+}
+
+.partners_icon img {
+    margin-right : 5rem;
+    width        : 150px;
+    height       : 150px;
+    margin-bottom: 1rem;
+    object-fit   : contain;
+}
+
+.pictureTRZ {
+    object-fit: cover !important;
+}
+
+@media (min-width:0) and (max-width:449.9px) {
+    .body {
+        display        : flex;
+        justify-content: center;
+        margin-top     : 30px;
+    }
+
+    .partners_icon img {
+        margin-right : 1.5rem;
+        width        : 80px;
+        height       : 80px;
+        margin-bottom: 1rem;
+        object-fit   : contain;
+    }
+
+    .title {
+        font-size    : 17px;
+        line-height  : 30px;
+        text-align   : center;
+        margin-bottom: 5px;
+    }
+
+    .text {
+        font-size    : 14px;
+        line-height  : 20px;
+        text-align   : center;
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width:450px) and (max-width:749.9px) {
+
+    /* title */
+    .title {
+        font-size: 32px;
+    }
+
+    /* text */
+    .text {
+        font-size: 15px;
+    }
+
+    /* picture */
+    .partners_icon img {
+        margin-right: 3rem;
+        width       : 130px;
+        height      : 130px;
+    }
+}
+
+@media (min-width:750px) and (max-width:1249.9px) {
+    .body {
+        margin-top: 35px;
+    }
+
+    .our_partners {
+        width: 95%;
+    }
+
+    .title {
+        font-size  : 25px;
+        line-height: 30px;
+    }
+
+    .text {
+        font-size  : 18px;
+        line-height: 20px;
+    }
+
+}

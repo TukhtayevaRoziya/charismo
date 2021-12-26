@@ -1,0 +1,245 @@
+/* blue header ./Main_Header.tsx Ln 10*/
+
+.main_header {
+    background-image : url(../img/header_lg.png);
+    height           : 550px;
+    background-size  : contain;
+    background-repeat: no-repeat;
+    display          : flex;
+}
+
+/* blue navbar */
+
+.navbar_header {
+    height          : 86px;
+    border-bottom   : 2px solid #E7E7E7;
+    display         : flex;
+    align-items     : center;
+    justify-content : space-around;
+    background-color: #F4F7FE;
+}
+
+.navbar_header div {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.IconAndLink {
+    width: 45%;
+}
+
+.Icon {
+    width: 20%;
+}
+
+/* HeaderLink */
+
+.HeaderLink {
+    width: 70%;
+}
+
+.HeaderLink a {
+    text-decoration: none;
+    font-family    : var(--main-font-family);
+    height         : 21px;
+    font-size      : 16px;
+    line-height    : 21px;
+    color          : #304560;
+}
+
+.HeaderLink a:hover {
+    text-shadow: 0px 3px 1.5px #ddd;
+}
+
+
+.HeaderActive {
+    color          : #2389FF !important;
+    text-decoration: none;
+    font-weight    : bold;
+}
+
+/* Korzina button */
+
+.korzinaAndBtn {
+    width: 17%;
+}
+
+/* blue header button */
+
+.btn_body a {
+    width           : 200px;
+    height          : 51px;
+    border          : 1px solid #2389FF;
+    box-sizing      : border-box;
+    border-radius   : 8px;
+    background-color: transparent;
+    font-family     : var(--main-font-family);
+    font-size       : 16px;
+    line-height     : 130%;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    text-decoration : none;
+    color           : #304560;
+    transition      : 0.9s background-color linear;
+    transition      : 0.2s color linear;
+}
+
+.btn_body a:hover {
+    background-color: var(--main-color);
+    color           : #fff;
+}
+
+@media (min-width:0) and (max-width:449.9px) {
+    /* blue header ./Main_Header.tsx Ln 10*/
+
+    .main_header {
+        background-image: none;
+        height          : auto;
+    }
+
+    .navbar_header {
+        display: none;
+    }
+}
+
+@media (min-width:450px) and (max-width:749.9px) {
+    /* blue header ./Main_Header.tsx Ln 10*/
+
+    .main_header {
+        height          : 270px;
+        display         : flex;
+        align-content   : center;
+        justify-content : flex-start;
+        background-image: url(../img/header_lg.png);
+    }
+
+    .navbar_header {
+        display: none;
+    }
+}
+@media (min-width:500px) and (max-width:619.9px) {
+    /* blue header ./Main_Header.tsx Ln 10*/
+
+    .main_header {
+        height          : 220px;
+    }
+
+}
+@media (min-width:450px) and (max-width:499.9px) {
+    /* blue header ./Main_Header.tsx Ln 10*/
+
+    .main_header {
+        height          : 180px;
+    }
+
+}
+
+@media (min-width:750px) and (max-width:1249.9px) {
+
+    /* blue header ./Main_Header.tsx Ln 10*/
+
+    .main_header {
+        height: 300px;
+        width: 100% !important;
+    }
+
+    .navbar_header div {
+        display        : flex;
+        justify-content: space-between;
+        align-items    : center;
+    }
+
+    .IconAndLink {
+        width: 65%;
+    }
+
+    .navbar_header {
+        height: 117px;
+    }
+
+    /* Korzina button */
+    .korzinaAndBtn {
+        width: 25%;
+    }
+
+    /* link word */
+    .HeaderLink a {
+        font-size: 13px;
+    }
+
+    /* blue header button */
+
+    .btn_body a {
+        width           : 150px;
+        height          : 40px;
+        border          : 1px solid #2389FF;
+        box-sizing      : border-box;
+        border-radius   : 8px;
+        background-color: transparent;
+        font-family     : var(--main-font-family);
+        font-size       : 13px;
+        line-height     : 130%;
+        color           : #304560;
+        transition      : 0.9s background-color linear;
+        transition      : 0.2s color linear;
+    }
+
+    /* logo */
+    .Icon img {
+        width: 100px;
+    }
+
+    /* korzina picture */
+    .korzinaAndBtn img {
+        width: 30px;
+    }
+}
+
+@media (min-width:860px) and (max-width:959.9px) {
+   
+    /* blue header ./Main_Header.tsx Ln 10*/
+
+    .main_header {
+        height: 350px;
+    } 
+}
+@media (min-width:789.9px) and (max-width:859.9px) {
+   
+    /* blue header ./Main_Header.tsx Ln 10*/
+
+    .main_header {
+        height: 306px;
+    } 
+}
+@media (min-width:960px) and (max-width:1009.9px) {
+   
+    /* blue header ./Main_Header.tsx Ln 10*/
+
+    .main_header {
+        height: 400px;
+    } 
+}
+@media (min-width:1001px) and (max-width:1249.9px) {
+   
+    /* blue header ./Main_Header.tsx Ln 10*/
+
+    .main_header {
+        height: 490px;
+    } 
+}
+
+@media (min-width:1250px) and (max-width:1476px) {
+    .IconAndLink{
+        width: 50%;
+    }
+
+    .korzinaAndBtn{
+        width: 20%;
+    }
+
+    .main_header {
+        justify-content: space-evenly;
+    }
+}

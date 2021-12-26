@@ -1,0 +1,42 @@
+.body {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.Shop{
+    width: 80%;
+}
+
+.hr {
+    width          : 100%;
+    display        : flex;
+    justify-content: center;
+    border-top     : 1px solid #E7E7E7;
+}
+
+.shop_body {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (min-width:0) and (max-width:449.9px) {
+    .shop_body {
+        width: 85%;
+    }
+}
+
+@media (min-width:450px) and (max-width:749.9px) {
+    .shop_body {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (min-width:750px) and (max-width:850.9px) {
+    .shop_body {
+        width: 90%;
+    }
+}

@@ -1,0 +1,374 @@
+.body {
+    display        : flex;
+    justify-content: center;
+    padding-bottom  : 26px;
+}
+
+.PageEnd {
+    display        : flex;
+    justify-content: space-between;
+
+    margin-top: 113px;
+    width     : 80%;
+}
+
+.text {
+    width : 370px;
+    height: 36px;
+
+    font-family: IBM Plex Sans;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 14px;
+    line-height: 18px;
+    margin-top : 10px;
+
+    color: #728399;
+}
+
+.title {
+    width : 229px;
+    height: 24px;
+
+    font-family: IBM Plex Sans;
+    font-style : normal;
+    font-weight: bold;
+    font-size  : 16px;
+    line-height: 150%;
+
+    color: #304560;
+}
+
+.socialNetwork {
+    margin-top     : 20px;
+    display        : flex;
+    justify-content: space-between;
+    width          : 50%;
+}
+
+.link {
+    width          : 40px !important;
+    height         : 40px !important;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    background     : #CACCD2;
+    border-radius  : 70px;
+
+    transition: 0.1s all linear;
+}
+
+.link:hover {
+    background: #2389FF;
+}
+
+.Copyright {
+    margin-top: 60px;
+
+    width : 220px;
+    height: 18px;
+
+    font-family: IBM Plex Sans;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 14px;
+    line-height: 18px;
+
+    color: #728399;
+}
+
+.blocks_group {
+    display       : flex;
+    flex-direction: row;
+    margin-top    : 20px;
+}
+
+.otherPageLinks,
+.otherProductLinks {
+    display       : flex;
+    flex-direction: column;
+    margin-right  : 50px;
+}
+
+.otherPageLinks h1,
+.otherProductLinks h1 {
+    font-family  : MTS Sans;
+    font-style   : normal;
+    font-weight  : bold;
+    font-size    : 20px;
+    line-height  : 24px;
+    margin-bottom: 20px;
+
+    color: #304560;
+}
+
+.otherPageLinks a,
+.otherProductLinks a {
+    font-family    : IBM Plex Sans;
+    font-style     : normal;
+    font-weight    : normal;
+    font-size      : 18px;
+    line-height    : 33px;
+    text-decoration: none;
+
+    color: #728399;
+}
+
+.otherLinkActive {
+    color: #2389FF !important;
+}
+
+.otherLinkEndText {
+    margin-top : 40px;
+    font-family: IBM Plex Sans;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 14px;
+    line-height: 18px;
+
+    color: #728399;
+}
+
+.emailField {
+    width : 298px;
+    height: 38px;
+    margin: 13px 0;
+
+    background   : #FFFFFF;
+    border       : 1px solid #DEDEDE;
+    box-sizing   : border-box;
+    border-radius: 5px;
+    outline      : none;
+    padding      : 15px !important;
+}
+
+.btn {
+    width : 298px;
+    height: 44px;
+
+    border       : 2px solid #2389FF;
+    background   : none;
+    border-radius: 5px;
+
+    font-family: IBM Plex Sans;
+    font-style : normal;
+    font-weight: bold;
+    font-size  : 18px;
+    line-height: 23px;
+
+    color: #2389FF;
+
+    transition: 0.2s all linear;
+}
+
+.btn:hover {
+    background-color: #2389FF;
+    color           : #fff;
+}
+
+.btn:active {
+    background-color: #2389FF;
+    color           : #fff;
+    box-shadow      : inset 0px 0px 6px rgb(0, 0, 0) !important;
+}
+
+@media (min-width:0) and (max-width:449.9px) {
+    .PageEnd {
+        flex-direction: column;
+        margin-top    : 30px;
+        width         : 90%;
+        text-align    : center;
+    }
+
+    .img {
+        width: 60%;
+    }
+
+    .text {
+        width      : 100%;
+        height     : 60px;
+        margin-top : 6px;
+        font-size  : 12px;
+        line-height: 18px;
+        margin-bottom: 0rem;
+    }
+
+
+    .title {
+        width      : 100%;
+        margin-top : 10px;
+        font-size  : 14px;
+        line-height: 150%;
+    }
+
+    .socialNetwork {
+        justify-content: space-evenly;
+        width          : 100%;
+    }
+
+
+    .Copyright {
+        margin-top: 28px;
+        width     : 100%;
+
+        font-size  : 12px;
+        line-height: 18px;
+    }
+
+
+    .blocks_group {
+        display: none;
+    }
+
+    .otherLinkEndText {
+        display: none;
+    }
+}
+
+@media (min-width:450px) and (max-width:749.9px) {
+    .PageEnd {
+        width         : 95%;
+        flex-wrap     : wrap;
+        flex-direction: column-reverse;
+        margin-top    : 50px;
+    }
+
+
+    .text {
+        width    : 70%;
+        font-size: 14px;
+    }
+
+
+    .otherLinkEndText {
+        display: none;
+    }
+
+    .title {
+        width    : 70%;
+        font-size: 14px;
+    }
+
+
+    .block_1 {
+        display       : flex;
+        text-align    : center;
+        align-items   : center;
+        flex-direction: column;
+    }
+
+    .otherPageLinks,
+    .sm {
+        margin-right: 30px !important;
+    }
+
+    .otherProductLinks {
+        margin-right: 0;
+    }
+
+    .otherPageLinks h1,
+    .otherProductLinks h1 {
+        font-size    : 14px;
+        line-height  : 16px;
+        margin-bottom: 15px;
+    }
+
+    .otherPageLinks a,
+    .otherProductLinks a {
+        font-size  : 14px;
+        line-height: 26px;
+    }
+
+    .Copyright {
+        margin-top: 20px;
+    }
+
+    .emailField {
+        width : 200px;
+        height: 22px;
+    }
+
+    .btn {
+        width      : 200px;
+        height     : 35px;
+        font-size  : 16px;
+        line-height: 23px;
+    }
+
+    .blocks_group {
+        margin-bottom  : 1rem;
+        justify-content: space-evenly;
+    }
+
+    .socialNetwork {
+        width: 35%;
+    }
+}
+
+@media (min-width:750px) and (max-width:1119.9px) {
+    .PageEnd {
+        margin-top: 83px;
+        width     : 90%;
+    }
+
+    .text {
+        width       : 220px;
+        height      : auto;
+        line-height : 20px;
+        font-size   : 12px;
+        margin-right: 10px;
+    }
+
+    .socialNetwork {
+        width: 80%;
+    }
+
+    /* email input */
+    .emailField {
+        width : 220px;
+        height: 20px;
+    }
+
+    /* btn */
+    .btn {
+        width    : 220px;
+        height   : 38px;
+        font-size: 16px;
+    }
+
+    .otherPageLinks h1,
+    .otherProductLinks h1 {
+        font-size: 16px;
+    }
+
+    .otherPageLinks a,
+    .otherProductLinks a {
+        font-size: 16px;
+    }
+
+    .otherPageLinks,
+    .otherProductLinks {
+        margin-right: 30px;
+    }
+
+    /* title */
+    .title {
+        width    : 200px;
+        font-size: 15px
+    }
+
+    .otherLinkEndText {
+        margin-top: 24px;
+    }
+
+    .block_2 {
+        width: 70%;
+    }
+}
+
+@media (min-width:1120px) and (max-width:1249.9px) {
+    .PageEnd {
+        width     : 90%;
+    }
+    
+}

@@ -1,0 +1,91 @@
+.Honest_reviews {
+    background-image: url("../../img/Honest_reviews/bg.png");
+    height          : auto;
+    background-size : 100% 100%;
+    object-fit      : cover;
+}
+
+.body {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    margin-top     : 90px;
+}
+
+/* title */
+
+.title {
+    width     : 83%;
+    text-align: start;
+    margin-top: 77px;
+}
+
+/* blocks */
+
+.block_body {
+    display        : flex;
+    justify-content: space-between;
+    margin-top     : 2rem;
+}
+
+@media (min-width:0) and (max-width:449.9px) {
+    .Honest_reviews {
+        background: linear-gradient(94.21deg, #F4F7FE 0.24%, rgba(244, 247, 254, 0.5) 100%);
+    }
+
+    .block_body {
+        flex-direction: column;
+        margin-top    : 1rem;
+        align-items   : center;
+    }
+
+    .body {
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
+        margin-top     : 0px;
+    }
+
+    /* title */
+
+    .title {
+        width     : 95%;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:450px) and (max-width:749.9px) {
+    .block_body {
+        flex-wrap      : wrap;
+        justify-content: space-around;
+    }
+
+    /* title */
+
+    .title {
+        width     : 100%;
+        margin-top: 15px;
+    }
+
+    .body {
+        margin-top: 30px;
+    }
+
+}
+
+@media (min-width:750px) and (max-width:1249.9px) {
+    /* title */
+
+    .title {
+        width     : 95%;
+        margin-top: 50px;
+    }
+
+    /* blocks */
+
+    .block_body {
+        display        : flex;
+        justify-content: space-evenly;
+        margin-top     : 2rem;
+    }
+}

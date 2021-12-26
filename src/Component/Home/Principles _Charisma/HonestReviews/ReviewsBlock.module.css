@@ -1,0 +1,292 @@
+.blocks {
+    width        : 341px;
+    height       : auto;
+    background   : #FFFFFF;
+    box-shadow   : 0px 0px 15px rgba(119, 119, 119, 0.15);
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    padding      : 22px 0 22px 18px;
+    transition   : 0.1s all linear;
+}
+
+.blocks:hover {
+    box-shadow: 0px 0px 15px 5px rgb(197, 197, 197);
+}
+
+.block_header {
+    display: flex;
+}
+
+.img {
+    width : 100px;
+    height: 100px;
+}
+
+/* img_text = name and job */
+
+.img_text_block {
+    padding: 9px 0 0 22px;
+}
+
+.img_text_block h4 {
+    font-family: var(--main-font-family);
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 18px;
+    line-height: 23px;
+    color      : var(--font-color);
+    margin: 5px 0 0 0;
+}
+
+.img_text_block h5 {
+    font-family: var(--main-font-family);
+    font-style : normal;
+    font-weight: bold;
+    font-size  : 20px;
+    line-height: 26px;
+    color      : var(--font-color2);
+    margin: 10px 0 0 0;
+}
+
+/* starts */
+
+.star_body {
+    width: 80%;
+    margin-top: 10px;
+}
+
+/* block_main */
+
+.block_main h2 {
+    font-family: var(--main-font-family);
+    font-style : normal;
+    font-weight: bold;
+    font-size  : 18px;
+    line-height: 22px;
+    color      : var(--font-color2);
+    margin-top : 25px;
+}
+
+.block_main h3 {
+    width: 85%;
+    font-family: IBM Plex Sans;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 16px;
+    line-height: 21px;
+    color      : var(--font-color);
+}
+
+.block_main a {
+    font-family: IBM Plex Sans;
+    font-style : normal;
+    font-weight: bold;
+    font-size  : 18px;
+    line-height: 23px;
+
+    color          : #2389FF;
+    text-decoration: none;
+}
+
+.block_main a:hover {
+    color: #238affce;
+}
+
+@media (min-width:0) and (max-width:449.9px) {
+    .blocks {
+        width        : 90%;
+        margin-bottom: 20px;
+        padding      : 15px 10px 20px 10px;
+        height       : auto;
+    }
+
+    .img {
+        width : 70px;
+        height: 70px;
+    }
+
+    /* img_text = name and job */
+
+    .img_text_block {
+        padding: 9px 0 0 10px;
+    }
+
+    .img_text_block h4 {
+        font-size  : 10px;
+        line-height: 10px;
+    }
+
+    .img_text_block h5 {
+        line-height  : 8px;
+        margin-bottom: 0;
+        font-size    : 9.8px;
+    }
+
+    /* starts */
+
+    .star_body {
+        width: 90%;
+    }
+
+    .star_body img {
+        width: 100%
+    }
+
+    /* block_main */
+
+    .block_main h2 {
+        font-size  : 11px;
+        line-height: 19px;
+        margin     : 10px 0 3px 0;
+    }
+
+    .block_main h3 {
+        font-size    : 9px;
+        line-height  : 15px;
+        margin-bottom: 5px;
+    }
+
+    .block_main a {
+        font-size  : 14px;
+        line-height: 18px;
+    }
+
+    .img {
+        width : 70px;
+        height: 70px;
+    }
+
+    .blocks:hover {
+        box-shadow: none;
+    }
+
+    .block_header {
+        width: 100%;
+    }
+
+}
+
+@media (min-width:280px) and (max-width:370.9px) {
+    .blocks {
+        width: 70%;
+    }
+}
+
+@media (min-width:371px) and (max-width:449.9px) {
+    .blocks {
+        width: 50%;
+    }
+}
+
+@media (min-width:450px) and (max-width:749.9px) {
+    .blocks {
+        width        : 42%;
+        height       : 215px;
+        margin-bottom: 15px;
+        padding      : 15px 0 15px 10px;
+    }
+
+    /* img in the blocks */
+
+    .img {
+        width : 70px;
+        height: 70px;
+    }
+
+    /* img_text = name and job */
+
+    .img_text_block {
+        padding: 9px 0 0 15px;
+    }
+
+    .img_text_block h4 {
+        font-size: 14px;
+    }
+
+    .img_text_block h5 {
+        font-size  : 14px;
+        line-height: 26px;
+    }
+
+    /* block_main */
+
+    .block_main h2 {
+        font-size  : 14px;
+        line-height: 15px;
+        margin-top : 15px;
+    }
+
+    .block_main h3 {
+        font-size    : 11px;
+        margin-right : 12px;
+        line-height  : 18px;
+        margin-bottom: 0;
+    }
+
+    .block_main a {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:750px) and (max-width:1249.9px) {
+    .blocks {
+        width        : 30%;
+        height       : auto;
+        margin-bottom: 2rem;
+        padding      : 16px 0 14px 10px;
+    }
+
+    /* user img */
+
+    .img {
+        width : 70px;
+        height: 70px;
+    }
+
+    /* img_text = name and job */
+
+    .img_text_block {
+        padding: 7px 0 0 17px;
+    }
+
+    .img_text_block h4 {
+        font-size  : 14px;
+        line-height: 17px;
+    }
+
+    .img_text_block h5 {
+        font-size  : 12px;
+        line-height: 14px;
+    }
+
+    /* starts */
+
+    .star_body img {
+        width: 100%;
+    }
+
+    /* block_main */
+
+    .block_main h2 {
+        font-size  : 14px;
+        line-height: 16px;
+        margin-top : 13px;
+    }
+
+    .block_main h3 {
+        font-size  : 12px;
+        line-height: 18px;
+    }
+
+    .block_main a {
+        font-size  : 16px;
+        line-height: 20px;
+    }
+
+}
+
+@media (min-width:840px) and (max-width:1249.9px) {
+    .blocks {
+        width        : 25%;
+    }
+}

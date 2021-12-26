@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route } from 'react-router-dom'
+//  pages are import
+import { Reviews } from './Component/Reviews/Reviews'
+import { Answer } from './Component/Answer/Answer'
+import Home from './Component/Home/Home'
+import Shop from './Component/Shop/Shop'
+import BLog from './Component/Blog/BLog'
 
-function App() {
+import './App.css'
+
+const App = () => {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Route path={"/"} render={() => <Home />} />
+      <Route path={"/shop"} render={() => <Shop />} />
+      <Route path={"/answer"} render={() => <Answer />} />
+      <Route path={'/reviews'} render={() => <Reviews />} />
+      <Route path={'/blog'} render={() => <BLog />} />
+      <div>
+      </div>
+
+      {/* <Shop2Sharp /> */}
     </div>
   );
 }
 
-export default App;
+export default App
