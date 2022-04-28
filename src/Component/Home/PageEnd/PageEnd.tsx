@@ -11,6 +11,7 @@ import style from './PageEnd.module.css'
 
 // import { required, maxLengthCreator } from '../../../utils/validators/validators'
 import { NavLink } from 'react-router-dom';
+import Oclock_Api from './Oclock_Api/Oclock_Api';
 
 const PageEnd = () => {
     return (
@@ -53,6 +54,7 @@ const PageEnd = () => {
                             <h1>Будьте в курсе всех новостей</h1>
                             <input className={style.emailField} type="email" name="" id="" placeholder={'Ваш E-mail'} maxLength={40} />
                             <button className={style.btn} type="button">Подписаться</button>
+                            <h1><Oclock_Api /></h1>
                         </div>
                     </div>
                     <h1 className={style.otherLinkEndText}>Политика обработки персональных данных</h1>

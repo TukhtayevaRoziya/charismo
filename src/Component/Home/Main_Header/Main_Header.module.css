@@ -2,8 +2,8 @@
 
 .main_header {
     background-image : url(../img/header_lg.png);
-    height           : 550px;
-    background-size  : contain;
+    height           : 650px;
+    background-size  : cover;
     background-repeat: no-repeat;
     display          : flex;
 }
@@ -119,19 +119,21 @@
         display: none;
     }
 }
+
 @media (min-width:500px) and (max-width:619.9px) {
     /* blue header ./Main_Header.tsx Ln 10*/
 
     .main_header {
-        height          : 220px;
+        height: 220px;
     }
 
 }
+
 @media (min-width:450px) and (max-width:499.9px) {
     /* blue header ./Main_Header.tsx Ln 10*/
 
     .main_header {
-        height          : 180px;
+        height: 180px;
     }
 
 }
@@ -142,7 +144,7 @@
 
     .main_header {
         height: 300px;
-        width: 100% !important;
+        width : 100% !important;
     }
 
     .navbar_header div {
@@ -198,44 +200,47 @@
 }
 
 @media (min-width:860px) and (max-width:959.9px) {
-   
+
     /* blue header ./Main_Header.tsx Ln 10*/
 
     .main_header {
         height: 350px;
-    } 
+    }
 }
+
 @media (min-width:789.9px) and (max-width:859.9px) {
-   
+
     /* blue header ./Main_Header.tsx Ln 10*/
 
     .main_header {
         height: 306px;
-    } 
+    }
 }
+
 @media (min-width:960px) and (max-width:1009.9px) {
-   
+
     /* blue header ./Main_Header.tsx Ln 10*/
 
     .main_header {
         height: 400px;
-    } 
+    }
 }
+
 @media (min-width:1001px) and (max-width:1249.9px) {
-   
+
     /* blue header ./Main_Header.tsx Ln 10*/
 
     .main_header {
         height: 490px;
-    } 
+    }
 }
 
 @media (min-width:1250px) and (max-width:1476px) {
-    .IconAndLink{
+    .IconAndLink {
         width: 50%;
     }
 
-    .korzinaAndBtn{
+    .korzinaAndBtn {
         width: 20%;
     }
 

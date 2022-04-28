@@ -14,6 +14,5 @@ const Titles: FC<PropsType> = ({ title, text }) => {
         </>
     )
 }
-debugger
 
 export default Titles

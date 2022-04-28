@@ -34,12 +34,64 @@
     overflow       : auto;
 }
 
-.partners_icon img {
-    margin-right : 5rem;
+.slide img {
     width        : 150px;
     height       : 150px;
     margin-bottom: 1rem;
     object-fit   : contain;
+}
+
+.slider {
+    background: white;
+    width: 100%;
+    overflow  : hidden;
+}
+
+.slider::before,
+.slider::after {
+    content : "";
+    height  : 100px;
+    position: absolute;
+    width   : 200px;
+    z-index : 2;
+}
+
+.slider::after {
+    right    : 0;
+    top      : 0;
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top : 0;
+}
+
+.contrubutor_sec{
+    width: 100%;
+}
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+.slider .slide_track {
+    animation: scroll 40s linear infinite;
+    display  : flex;
+    width    : calc(250px * 14);
+}
+
+.slider .slide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider .slide img:hover{
+    transform: translateX(15px);
+    transition: 0.8s;
 }
 
 .pictureTRZ {

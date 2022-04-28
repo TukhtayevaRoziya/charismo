@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 type PropsType = {
     href: string
-    LinkName?: string
+    LinkName?: string | any
     activeClass?: any
     img?: any
 }

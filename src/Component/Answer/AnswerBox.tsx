@@ -16,17 +16,18 @@ export const AnswerBox: FC<PropsType> = ({ title }) => {
         setstate(false);
     }, []);
     return (
-        <div className={moduleName.box}>
+        <div className={moduleName.box} onClick={ state ? UnVisibleText : VisibleText}>
             <h1>{title}</h1>
             <button className={state ? moduleName.noVisible : moduleName.visible + " " + moduleName.visibleMoreText}
-                onClick={VisibleText}><img src={vector} alt='zh' /></button>
+                onClick={VisibleText}><img src={vector} alt='no picture' /></button>
             <button className={state ? moduleName.visible : moduleName.noVisible + " " + moduleName.visibleMoreText}
-                onClick={UnVisibleText}><img src={visibleText} alt='zh' /></button>
+                onClick={UnVisibleText}><img src={visibleText} alt='no picture' /></button>
             {state ?
                 <div className={moduleName.text}>
                     В основе Elastic cloud используется виртуализация VMware Миграция на VMware возможна не только с других систем виртуализации (MS Hyper-V, XenServer), но и с «железных» серверов без виртуализации. Это более сложный и длительный процесс, чем миграция в рамках одной системы виртуализации. Но у #CloudМТS есть опыт проведения миграции клиентских систем c физических серверов без виртуализации и инфраструктуры Hyper-V.
                 </div>
-                : <div />}
+                : <div />
+            }
         </div>
     );
 };

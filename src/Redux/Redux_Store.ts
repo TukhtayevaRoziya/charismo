@@ -1,19 +1,27 @@
-// import { createStore, combineReducers, applyMiddleware, compose } from 'redux'
-// import thunkMiddleware from 'redux-thunk'
+import { createStore, combineReducers, applyMiddleware, compose } from 'redux'
+
+import { reducer as formReduser } from 'redux-form'
+
 import SidebarReduser from './SidebarReduser'
+import thunkMiddleware from 'redux-thunk'
+import LoginReducer from './LoginReducer'
+import BlogReducer from './BlogReducer';
 
-const rootReducers = {
-    Sidebar: SidebarReduser
-}
+const rootReducers = combineReducers({
+    Sidebar: SidebarReduser,
+    LoginPage: LoginReducer,
+    BlogPage: BlogReducer,
+    form: formReduser
+})
 
-// export type AppStateType = ReturnType<RootRedusersType>
-
+type RootRedusersType = typeof rootReducers
+export type AppStateType = ReturnType<RootRedusersType>
 
 // @ts-ignore
 
 const compoceEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 
-const store = rootReducers
+const store = createStore(rootReducers, compoceEnhancers(applyMiddleware(thunkMiddleware)))
 // @ts-ignore
 
 window.__store__ = store

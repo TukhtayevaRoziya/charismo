@@ -1,0 +1,33 @@
+.Input input,
+.Input textarea {
+    background-image   : url(./logo192.png);
+    background-size    : 25px 25px;
+    background-repeat  : no-repeat;
+    background-position: 100%;
+    border             : 3px solid red !important;
+    height             : auto;
+}
+
+.Input {
+    display       : flex;
+    flex-direction: column;
+}
+
+.Input textarea {
+    height: 50px;
+}
+
+.span {
+    color           : #fff;
+    font-size       : 14px;
+    width           : 60%;
+    border          : 5px solid rgb(255, 0, 0);
+    box-sizing      : border-box;
+    margin          : 0 auto;
+    background-color: red;
+}
+
+.error {
+    border: 3px solid red;
+    color : red;
+}

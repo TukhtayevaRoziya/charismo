@@ -1,0 +1,103 @@
+.body {
+    border-bottom: 1px solid rgb(194, 194, 194);
+    margin-bottom: 1rem;
+}
+
+.mapBody {
+    max-height: 742px;
+    min-height: auto;
+    overflow  : hidden;
+    padding   : 0.5rem 0;
+}
+
+.box {
+    width          : 50%;
+    background     : #F4F7FE;
+    border-radius  : 20px;
+    padding        : 1rem;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    flex-direction : column;
+}
+
+.inp {
+    width        : 90%;
+    height       : 35px;
+    padding      : 10px 10px 10px 20px;
+    background   : #FFFFFF;
+    border       : none;
+    border-radius: 5px;
+    outline      : none;
+    font-size    : 15px;
+    line-height  : 21px;
+    color        : var(--font-color2);
+    font-family  : var(--main-font-family2);
+    font-style   : normal;
+    font-weight  : normal;
+}
+
+.blocks_body {
+    width     : 95%;
+    margin-top: 1rem;
+}
+
+.block {
+    display      : flex;
+    margin-bottom: 0.5rem;
+}
+
+.img {
+    width        : 30%;
+    border-radius: 10px;
+}
+
+.textBody {
+    display       : flex;
+    flex-direction: column;
+    margin        : 0 0 0 0;
+}
+
+.textBody h1 {
+    font-family: var(--main-font-family2);
+    font-style : normal;
+    font-weight: bold;
+    font-size  : 18px;
+    line-height: 21px;
+    color      : var(--font-color2);
+    width      : 100%;
+    margin     : 0.5rem 0;
+}
+
+.newsType {
+    font-family: var(--main-font-family2);
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 16px;
+    line-height: 21px;
+    color      : var(--font-color);
+    margin     : 0rem 0 0 0;
+}
+
+
+.videoType {
+    display        : flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.videoType a {
+    width          : 63px;
+    height         : 28px;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    background     : #FFFFFF;
+    border-radius  : 8px;
+    font-family    : var(--main-font-family2);
+    font-style     : normal;
+    font-weight    : normal;
+    font-size      : 14px;
+    line-height    : 18px;
+    color          : var(--font-color2);
+}

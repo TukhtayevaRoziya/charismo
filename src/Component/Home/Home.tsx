@@ -1,16 +1,34 @@
-import { Navlink } from '../../Acronyms/NavLink'
+import { Route } from 'react-router'
+import { FC } from 'react'
 
 import { Principles_Charisma } from './Principles _Charisma/Principles_Charisma'
 import { Main_Header, BlueNavbar } from './Main_Header/Main_Header'
 import Professional from './Professional/Professional'
 import { Header_sm } from './Header_sm/Header_sm'
-
+import { Navlink } from '../../Acronyms/NavLink'
 import PageEnd from './PageEnd/PageEnd'
 
 import moduleName from './Home.module.css'
-import { Route } from 'react-router'
 
-const Home = () => {
+
+type PropsType = {
+    isAuth: boolean
+    name: string
+    UpdateIsAuthAC: (isAuth: boolean) => void
+}
+type UserPropsType = {
+    name: string
+    UpdateIsAuthAC: (isAuth: boolean) => void
+}
+
+const UserInfo = (props: UserPropsType) => {
+    const Logout = () => {
+        props.UpdateIsAuthAC(false)
+    }
+    return <h5 className={moduleName.Menu_Item} onClick={Logout}> <b>{props.name[0]}</b></h5>
+}
+
+const Home: FC<PropsType> = ({ isAuth, name, UpdateIsAuthAC }) => {
     return (
         <>
             <div className={moduleName.Header}>
@@ -22,7 +40,10 @@ const Home = () => {
                         <Navlink href="/" LinkName="Доставка и оплата" />
                     </div>
                     <div className={moduleName.header_2}>
-                        <Navlink href="/" LinkName="Вход" />
+                        {isAuth
+                            ? <UserInfo name={name} UpdateIsAuthAC={UpdateIsAuthAC} />
+                            : <Navlink href="/login" LinkName={'kirish'} />
+                        }
                         <Navlink href="/" LinkName="Реферальная программа" />
                     </div>
                 </header>
@@ -30,9 +51,6 @@ const Home = () => {
                 <BlueNavbar />
                 <Route exact path='/charismo' render={() => <Main_Header />} />
                 <Route exact path='/charismo' render={() => <Principles_Charisma />} />
-
-
-                
                 <Route exact path='/charismo' render={() => <Professional />} />
                 <Route exact path='/charismo' render={() => <PageEnd />} />
             </div>

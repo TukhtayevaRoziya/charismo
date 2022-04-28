@@ -1,8 +1,8 @@
 import Route_In_HomePage from '../../Acronyms/Route_In_HomePage'
-
-import moduleName from './Answer.module.css'
 import PageEnd from '../Home/PageEnd/PageEnd';
 import { AnswerBox } from './AnswerBox';
+
+import moduleName from './Answer.module.css'
 
 export const Answer = () => {
     return (

@@ -1,5 +1,3 @@
-CARBON ORQALI REKLAMA
-
 class ApexChart extends React.Component {
     constructor(props) {
         super(props);

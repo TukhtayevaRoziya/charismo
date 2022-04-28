@@ -3,9 +3,6 @@ import { Img_Title } from '../Img_Title/Img_Title'
 import sideIcon from '../img/side_icon.png'
 import korzina from '../img/korzina.png'
 
-
-import { Component, useState } from 'react'
-
 import moduleName from './Main_Header.module.css'
 
 

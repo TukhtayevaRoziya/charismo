@@ -22,13 +22,30 @@
     transition     : 0.2s all linear;
 }
 
-
 .header_1 {
     width: 40%;
 }
 
 .header_2 {
-    width: 15%;
+    width: 16%;
+}
+
+.header_2 .Menu_Item{
+    width: 35px;
+    height: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #3596d3 ;
+    background-color: #3596d3;
+    border-radius: 50%;
+}
+
+.header_2 .Menu_Item b{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 .Header {
@@ -72,7 +89,7 @@
 
 }
 
-@media (min-width:1300px) and (max-width:1434px) {
+@media (min-width:1300px) and (max-width:1390px) {
     .header_2 {
         width: 25%;
     }

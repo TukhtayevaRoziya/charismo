@@ -1,81 +1,83 @@
 .answer {
-    display        : flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .body {
-    width: 80%;
+  width: 80%;
 }
 
 .block {
-    margin: 3rem 0;
+  margin: 3rem 0;
 }
 
 .box {
-    width          : 100%;
-    display        : flex;
-    justify-content: space-between;
-    flex-wrap      : wrap;
-    border-top     : 2px solid #CACCD2;
-    padding        : 25px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top: 2px solid #caccd2;
+  padding: 25px 0;
 }
 
 .box h1 {
-    width      : 90%;
-    font-family: MTS Sans;
-    font-style : normal;
-    font-weight: bold;
-    font-size  : 20px;
-    line-height: 24px;
-    color      : #304560;
+  width: 90%;
+  font-family: MTS Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #304560;
+  cursor: pointer;
 }
 
 /* button */
 .box button {
-    background-color: transparent !important;
-    border          : none;
-    width           : 10%;
+  background-color: transparent !important;
+  border: none;
+  width: 10%;
+  cursor: pointer;
 }
 
 .noVisible {
-    display: none;
+  display: none;
 }
 
 .visibe {
-    display: inherit;
+  display: inherit;
 }
 
 .text {
-    width      : 100%;
-    margin-top : 10px;
-    font-family: IBM Plex Sans;
-    font-style : normal;
-    font-weight: normal;
-    font-size  : 16px;
-    line-height: 150%;
-    color      : #728399;
+  width: 100%;
+  margin-top: 10px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #728399;
 }
 
 .pageEndBg {
-    background-color: #f4f7fe;
+  background-color: #f4f7fe;
 }
 
-@media (min-width:0) and (max-width:449.9px) {
-    .block {
-        margin: 1rem 0;
-    }
+@media (min-width: 0) and (max-width: 449.9px) {
+  .block {
+    margin: 1rem 0;
+  }
 
-    .box h1 {
-        font-size  : 14px;
-        line-height: 20px;
-    }
+  .box h1 {
+    font-size: 14px;
+    line-height: 20px;
+  }
 
-    .text {
-        font-size  : 12px;
-        line-height: 15px;
-    }
+  .text {
+    font-size: 12px;
+    line-height: 15px;
+  }
 
-    .body{
-        width: 90%;
-    }
+  .body {
+    width: 90%;
+  }
 }
