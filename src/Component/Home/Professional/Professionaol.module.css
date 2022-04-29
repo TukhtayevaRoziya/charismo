@@ -1,132 +1,135 @@
 .body {
-    margin-top     : 114px;
-    height         : 253px;
-    display        : flex;
-    align-items    : center;
-    justify-content: center;
-    flex-direction : column;
-    background     : linear-gradient(92.31deg, #2389FF 0.74%, rgba(35, 137, 255, 0.5) 98.19%);
+  margin-top: 114px;
+  height: 253px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(
+    92.31deg,
+    #2389ff 0.74%,
+    rgba(35, 137, 255, 0.5) 98.19%
+  );
 }
 
 .title {
-    font-family: MTS Sans;
-    font-style : normal;
-    font-weight: bold;
-    font-size  : 42px;
-    line-height: 50px;
+  font-family: MTS Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 50px;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .text {
-    font-family: IBM Plex Sans;
-    font-style : normal;
-    font-weight: normal;
-    font-size  : 20px;
-    line-height: 26px;
-    color      : #e8e8e8;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: #e8e8e8;
 }
 
 .btn {
-    display        : flex;
-    align-items    : center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    width        : 270px;
-    height       : 55px;
-    background   : #FFFFFF;
-    border-radius: 5px;
+  width: 270px;
+  height: 55px;
+  background: #ffffff;
+  border-radius: 5px;
 
-    font-family    : IBM Plex Sans;
-    font-style     : normal;
-    font-weight    : bold;
-    font-size      : 20px;
-    line-height    : 26px;
-    text-decoration: none;
-    color          : #2389FF;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-decoration: none;
+  color: #2389ff;
 
-    transition: 0.2s all linear;
+  transition: 0.2s all linear;
 }
 
 .btn:hover {
-    color     : #2389FF;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.336) !important;
+  color: #2389ff;
+  background: #ffffff;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.336) !important;
 }
 
 .btn:active {
-    background: #0077ff;
-    color     : #ffffff;
-    box-shadow: inset 0px 0px 4px rgb(0, 0, 0) !important;
+  background: #0077ff;
+  color: #ffffff;
+  box-shadow: inset 0px 0px 4px rgb(0, 0, 0) !important;
 }
 
-@media (min-width:0) and (max-width:449.9px) {
-    .body {
-        margin-top: 30px;
-        height    : auto;
-        text-align: center;
-        padding   : 0 10px;
-        box-sizing: border-box;
-    }
+@media (min-width: 0) and (max-width: 449.9px) {
+  .body {
+    margin-top: 30px;
+    height: auto;
+    text-align: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
 
-    .title {
-        font-size  : 20px;
-        line-height: 30px;
-        margin-top : 30px;
-    }
+  .title {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+  }
 
-    .text {
-        font-size  : 12px;
-        line-height: 18px;
-    }
+  .text {
+    font-size: 12px;
+    line-height: 18px;
+  }
 
-    .btn {
-        width        : 200px;
-        height       : 45px;
-        margin-bottom: 30px;
+  .btn {
+    width: 200px;
+    height: 45px;
+    margin-bottom: 30px;
 
-        font-size  : 14px;
-        line-height: 18px;
-    }
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
 
-@media (min-width:450px) and (max-width:919.9px) {
-    .body {
-        margin-top: 76px;
-        height    : auto;
-        text-align: center;
-    }
+@media (min-width: 450px) and (max-width: 919.9px) {
+  .body {
+    margin-top: 76px;
+    height: auto;
+    text-align: center;
+  }
 
-    .title {
-        font-size  : 25px;
-        line-height: 36px;
-        margin-top : 30px;
-    }
+  .title {
+    font-size: 25px;
+    line-height: 36px;
+    margin-top: 30px;
+  }
 
-    .text {
-        font-size  : 14px;
-        line-height: 18px;
-    }
+  .text {
+    font-size: 14px;
+    line-height: 18px;
+  }
 
-    .btn {
-        width        : 250px;
-        height       : 50px;
-        margin-bottom: 30px;
+  .btn {
+    width: 250px;
+    height: 50px;
+    margin-bottom: 30px;
 
-        font-size  : 14px;
-        line-height: 18px;
-    }
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
 
-@media (min-width:920px) and (max-width:1249.9px) {
+@media (min-width: 920px) and (max-width: 1249.9px) {
+  .title {
+    font-size: 38px;
+    line-height: 40px;
+  }
 
-    .title {
-        font-size  : 38px;
-        line-height: 40px;
-    }
-
-    .text {
-        font-size  : 18px;
-        line-height: 20px;
-    }
+  .text {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

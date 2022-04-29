@@ -1,20 +1,20 @@
 .form {
-    display        : flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .btn {
-    width           : 100px;
-    height          : 30px;
-    border-radius   : 22px;
-    background-color: #3596d3;
-    color           : white;
-    border          : none;
+  width: 100px;
+  height: 30px;
+  border-radius: 22px;
+  background-color: #3596d3;
+  color: white;
+  border: none;
 }
 
 .inp_text {
-    width          : 10%;
-    display        : flex;
-    align-items    : center;
-    justify-content: space-between;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

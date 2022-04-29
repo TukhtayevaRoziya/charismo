@@ -1,159 +1,157 @@
 /* body */
 
 .Principles_Charisma {
-    display        : flex;
-    align-items    : center;
-    justify-content: center;
-    margin-top     : 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
 }
 
 /* title */
 
 .title {
-    width     : 83%;
-    text-align: start;
+  width: 83%;
+  text-align: start;
 }
 
 /* blocks */
 
 .block_body {
-    display        : flex;
-    justify-content: space-between;
-
+  display: flex;
+  justify-content: space-between;
 }
 
 /* effect block */
 .effect_block {
-    width         : 25%;
-    display       : flex;
-    flex-direction: column;
-    align-items   : center;
-    background    : linear-gradient(179.35deg, #F4F7FE 0.51%, rgba(244, 247, 254, 0) 99.4%);
-    border-radius : 10px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    179.35deg,
+    #f4f7fe 0.51%,
+    rgba(244, 247, 254, 0) 99.4%
+  );
+  border-radius: 10px;
 }
 
 .effect_title {
-    font-family: var(--main-font-family);
-    font-style : normal;
-    font-weight: bold;
-    font-size  : 20px;
-    line-height: 24px;
-    color      : var(--font-color2);
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--font-color2);
 }
 
 .effect_text {
-    width      : 90%;
-    font-family: var(--main-font-family);
-    font-style : normal;
-    font-weight: normal;
-    font-size  : 16px;
-    line-height: 130%;
-    text-align : center;
-    color      : var(--font-color);
+  width: 90%;
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  color: var(--font-color);
 }
 
-@media (min-width:0) and (max-width:449.9px) {
-    .block_body {
-        flex-direction: column;
-    }
+@media (min-width: 0) and (max-width: 449.9px) {
+  .block_body {
+    flex-direction: column;
+  }
 
-    /* title */
-    .title {
-        width: 90%;
-    }
+  /* title */
+  .title {
+    width: 90%;
+  }
 
-    /* body */
+  /* body */
 
-    .Principles_Charisma {
-        margin-top: 50px;
-    }
+  .Principles_Charisma {
+    margin-top: 50px;
+  }
 
-    /* effect block */
-    .effect_block {
-        width: 100%;
-    }
+  /* effect block */
+  .effect_block {
+    width: 100%;
+  }
 
-    .effect_block img {
-        width: 100%;
-    }
+  .effect_block img {
+    width: 100%;
+  }
 
+  .effect_title {
+    font-size: 16px;
+    line-height: 0px;
+  }
 
-    .effect_title {
-        font-size  : 16px;
-        line-height: 0px;
-    }
-
-    .effect_text {
-        font-size  : 14px;
-        line-height: 20px;
-    }
-
+  .effect_text {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
-@media (min-width:450px) and (max-width:749.9px) {
-    /* body */
+@media (min-width: 450px) and (max-width: 749.9px) {
+  /* body */
 
-    .Principles_Charisma {
-        margin-top: 30px;
-    }
+  .Principles_Charisma {
+    margin-top: 30px;
+  }
 
-    /* blocks */
+  /* blocks */
 
-    .block_body {
-        justify-content: space-around;
-        flex-wrap      : wrap;
-    }
+  .block_body {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 
-    /* effect block */
-    .effect_block {
-        width: 45%;
-    }
+  /* effect block */
+  .effect_block {
+    width: 45%;
+  }
 
-    .effect_title {
-        font-size  : 17px;
-        line-height: 0px;
-    }
+  .effect_title {
+    font-size: 17px;
+    line-height: 0px;
+  }
 
-    .effect_text {
-        font-size  : 15px;
-        line-height: 20px;
-    }
+  .effect_text {
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
 
-@media (min-width:749.9px) and (max-width:1249.9px) {
+@media (min-width: 749.9px) and (max-width: 1249.9px) {
+  /* title */
 
-    /* title */
+  .title {
+    width: 95%;
+  }
 
-    .title {
-        width     : 95%;
-    }
+  .Principles_Charisma {
+    margin-top: 50px;
+  }
 
-    .Principles_Charisma {
-        margin-top: 50px;
-    }
+  /* effect block */
+  .effect_block {
+    width: 30%;
+  }
 
-    /* effect block */
-    .effect_block {
-        width: 30%;
-    }
+  .effect_title {
+    font-size: 16px;
+    line-height: 0px;
+  }
 
-    .effect_title {
-        font-size  : 16px;
-        line-height: 0px;
-    }
-
-    .effect_text {
-        font-size  : 14px;
-        line-height: 20px;
-    }
+  .effect_text {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
-@media (min-width:1150px) and (max-width:1249.9px) {
-    /* title */
+@media (min-width: 1150px) and (max-width: 1249.9px) {
+  /* title */
 
-    .title {
-        width: 95%;
-    }
-
-
+  .title {
+    width: 95%;
+  }
 }

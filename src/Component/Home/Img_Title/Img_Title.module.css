@@ -1,178 +1,171 @@
 /* img absolut text */
 .HeaderTextBody {
-    display        : flex;
-    align-items    : center;
-    width          : 50%;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-around;
 }
 
 /* title body <div> ./Img_Title.tsx Ln 7 */
 .TitleBody {
-    text-align: start;
+  text-align: start;
 }
 
 /* в магазин  button */
 .btn_click_body button {
-    margin-top: 35px;
-    height    : 55px;
+  margin-top: 35px;
+  height: 55px;
 }
 
 .btn_click_body button {
-    width           : 270px;
-    height          : 55px;
-    background-color: var(--main-color);
-    box-shadow      : 0px 5px 15px rgba(35, 137, 255, 0.15);
-    border-radius   : 5px;
-    font-family     : var(--main-font-family);
-    font-weight     : bold;
-    font-size       : 20px;
-    line-height     : 24px;
-    color           : #FFFFFF;
-    border          : none;
-    transition      : 0.2s all linear;
+  width: 270px;
+  height: 55px;
+  background-color: var(--main-color);
+  box-shadow: 0px 5px 15px rgba(35, 137, 255, 0.15);
+  border-radius: 5px;
+  font-family: var(--main-font-family);
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+  transition: 0.2s all linear;
 }
 
 .btn_click_body button:hover {
-    background-color: #fff;
-    box-shadow      : 0px 5px 15px rgb(197, 197, 197);
-    color           : var(--main-color);
+  background-color: #fff;
+  box-shadow: 0px 5px 15px rgb(197, 197, 197);
+  color: var(--main-color);
 }
 
 .btn_click_body button p {
-    margin: 0;
+  margin: 0;
 }
 
 /* bg img */
-@media (min-width:0) and (max-width:449.9px) {
+@media (min-width: 0) and (max-width: 449.9px) {
+  .TitleBody {
+    text-align: center;
+    margin: 30px 0 0 0;
+  }
 
-    .TitleBody {
-        text-align: center;
-        margin    : 30px 0 0 0;
-    }
+  .bg_img {
+    background-image: url("../img/Header_bg_sm.png");
+    height: 390px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    width: 100%;
+  }
 
-    .bg_img {
-        background-image : url('../img/Header_bg_sm.png');
-        height           : 390px;
-        background-size  : contain ;
-        background-repeat: no-repeat;
-        background-origin: border-box;
-        width            : 100%;
-    }
+  .HeaderTextBody {
+    background-color: #f5f8fe;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 0;
+  }
 
-    .HeaderTextBody {
-        background-color: #f5f8fe;
-        width           : 100%;
-        flex-direction  : column;
-        padding-top     : 0;
-    }
+  /* btn */
+  .btn_click_body {
+    margin: 0 auto;
+  }
 
-    /* btn */
-    .btn_click_body {
-        margin: 0 auto;
-    }
-
-    .btn_click_body button {
-        height    : 50px;
-        width     : 90%;
-        font-size : 18px;
-        margin-top: 0;
-    }
+  .btn_click_body button {
+    height: 50px;
+    width: 90%;
+    font-size: 18px;
+    margin-top: 0;
+  }
 }
 
-@media (min-width:266px) and (max-width:449.9px) {
-
-    /* btn */
-    .btn_click_body button {
-        width: 75%;
-    }
+@media (min-width: 266px) and (max-width: 449.9px) {
+  /* btn */
+  .btn_click_body button {
+    width: 75%;
+  }
 }
 
-@media (min-width:0) and (max-width:219.9px) {
-    .bg_img {
-        height: 200px;
-    }
+@media (min-width: 0) and (max-width: 219.9px) {
+  .bg_img {
+    height: 200px;
+  }
 }
 
-@media (min-width:220px) and (max-width:279.9px) {
-    .bg_img {
-        height: 250px;
-    }
+@media (min-width: 220px) and (max-width: 279.9px) {
+  .bg_img {
+    height: 250px;
+  }
 }
 
-@media (min-width:280px) and (max-width:349.9px) {
-    .bg_img {
-        height: 300px;
-    }
+@media (min-width: 280px) and (max-width: 349.9px) {
+  .bg_img {
+    height: 300px;
+  }
 }
 
-@media (min-width:450px) and (max-width:749.9px) {
+@media (min-width: 450px) and (max-width: 749.9px) {
+  /* img absolut text */
+  .HeaderTextBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 0px;
+    height: 100%;
+    width: 45%;
+  }
 
-    /* img absolut text */
-    .HeaderTextBody {
-        display        : flex;
-        align-items    : center;
-        justify-content: space-around;
-        padding-top    : 0px;
-        height         : 100%;
-        width          : 45%;
-    }
+  /* title body <div> ./Img_Title.tsx Ln 7 */
+  .TitleBody {
+    text-align: center;
+    margin-left: 1rem;
+  }
 
-    /* title body <div> ./Img_Title.tsx Ln 7 */
-    .TitleBody {
-        text-align : center;
-        margin-left: 1rem;
-    }
+  /* в магазин  button */
+  .btn_click_body {
+    height: 55px;
+  }
 
-    /* в магазин  button */
-    .btn_click_body {
-        height: 55px;
-    }
-
-    .btn_click_body button {
-        width      : 68px;
-        height     : 20px;
-        font-size  : 6px;
-        line-height: 12px;
-        margin-top : 10px;
-    }
-
+  .btn_click_body button {
+    width: 68px;
+    height: 20px;
+    font-size: 6px;
+    line-height: 12px;
+    margin-top: 10px;
+  }
 }
 
-@media (min-width:750px) and (max-width:1149.9px) {
+@media (min-width: 750px) and (max-width: 1149.9px) {
+  /* img absolut text */
+  .HeaderTextBody {
+    justify-content: flex-end;
+  }
 
-    /* img absolut text */
-    .HeaderTextBody {
-        justify-content: flex-end;
-    }
+  .btn_click_body button {
+    width: 170px;
+    height: 40px;
+    margin-top: 1rem;
+    font-size: 14px;
+  }
 
-    .btn_click_body button {
-        width     : 170px;
-        height    : 40px;
-        margin-top: 1rem;
-        font-size : 14px;
-    }
-
-
-    .TitleBody {
-        width: 80%;
-    }
+  .TitleBody {
+    width: 80%;
+  }
 }
 
-@media (min-width:1070px) and (max-width:1249.9px) {
-
-    /* img absolut text */
-    .HeaderTextBody {
-        width     : 60%;
-        margin    : 0;
-        text-align: center;
-    }
+@media (min-width: 1070px) and (max-width: 1249.9px) {
+  /* img absolut text */
+  .HeaderTextBody {
+    width: 60%;
+    margin: 0;
+    text-align: center;
+  }
 }
 
-@media (min-width:1250px) and (max-width:1475px) {
-    .HeaderTextBody {
-        display        : flex;
-        align-items    : center;
-        width          : 80%;
-        justify-content: flex-start;
-    }
+@media (min-width: 1250px) and (max-width: 1475px) {
+  .HeaderTextBody {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: flex-start;
+  }
 }

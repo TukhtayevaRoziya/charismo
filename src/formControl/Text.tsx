@@ -1,17 +1,27 @@
-import { FC } from 'react'
+import { FC } from "react";
 
-import {  WrappedFieldMetaProps, WrappedFieldProps } from 'redux-form'
-import moduleName from './Input.module.css'
+import { WrappedFieldMetaProps, WrappedFieldProps } from "redux-form";
+import moduleName from "./Input.module.css";
 
 export const Input = (props: any) => {
-    const { meta, input, child, ...restProps } = props
-    return <FormControl {...props} > <input {...input} {...restProps} /> </FormControl >
-}
+  const { meta, input, child, ...restProps } = props;
+  return (
+    <FormControl {...props}>
+      {" "}
+      <input {...input} {...restProps} />{" "}
+    </FormControl>
+  );
+};
 
 export const Textarea = (props: WrappedFieldProps) => {
-    const { meta, input, ...restProps } = props
-    return <FormControl {...props} > <textarea {...input} {...restProps} /></FormControl >
-}
+  const { meta, input, ...restProps } = props;
+  return (
+    <FormControl {...props}>
+      {" "}
+      <textarea {...input} {...restProps} />
+    </FormControl>
+  );
+};
 
 // type LoginFormValuesTypeKeys = Extract<keyof LoginFormValuesType, string>
 
@@ -28,15 +38,18 @@ export const Textarea = (props: WrappedFieldProps) => {
 // }
 
 type FormControlParamsType = {
-    meta: WrappedFieldMetaProps
-}
+  meta: WrappedFieldMetaProps;
+};
 
-export const FormControl: FC<FormControlParamsType> = ({ meta: { touched, error }, children }) => {
-    const hasError = touched && error
-    return (
-        <div className={(hasError ? moduleName.Input : "")}>
-            {children}
-            {hasError && <span className={moduleName.span}> {error} </span>}
-        </div>
-    )
-}
+export const FormControl: FC<FormControlParamsType> = ({
+  meta: { touched, error },
+  children,
+}) => {
+  const hasError = touched && error;
+  return (
+    <div className={hasError ? moduleName.Input : ""}>
+      {children}
+      {hasError && <span className={moduleName.span}> {error} </span>}
+    </div>
+  );
+};

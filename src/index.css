@@ -1,18 +1,17 @@
 :root {
-  --main-font-family : Inter, sans-serif;
+  --main-font-family: Inter, sans-serif;
   --main-font-family2: IBM Plex Sans;
-  --main-color       : #2389FF;
-  --font-color       : #728399;
-  --font-color2      : #304560;
+  --main-color: #2389ff;
+  --font-color: #728399;
+  --font-color2: #304560;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   height: 4px;
   width: 4px;
   background-color: #fff;
 }
 
-
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background: #2389ff;
 }

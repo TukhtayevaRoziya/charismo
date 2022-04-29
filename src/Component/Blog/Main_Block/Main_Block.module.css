@@ -1,66 +1,66 @@
 .mainBlock {
-    display      : flex;
-    width        : 100%;
-    margin-bottom: 3rem;
+  display: flex;
+  width: 100%;
+  margin-bottom: 3rem;
 }
 
 .mainBlock .main_img {
-    object-fit: cover;
-    width: 250px;
-    height: 70%;
+  object-fit: cover;
+  width: 250px;
+  height: 70%;
 }
 
 .information {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .fileType {
-    font-family: var(--main-font-family);
-    font-style : normal;
-    font-weight: bold;
-    font-size  : 14px;
-    line-height: 23px;
-    margin     : 5px 0;
-    color      : #728399;
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;
+  margin: 5px 0;
+  color: #728399;
 }
 
 .title {
-    font-family: var(--main-font-family);
-    font-style : normal;
-    font-weight: bold;
-    font-size  : 25px;
-    line-height: 30px;
-    color      : #304560;
-    margin     : 0;
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #304560;
+  margin: 0;
 }
 
 .text {
-    font-family: var(--main-font-family);
-    font-style : normal;
-    font-weight: normal;
-    font-size  : 16px;
-    line-height: 21px;
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
 
-    color: #728399;
+  color: #728399;
 }
 
 .data {
-    font-family: var(--main-font-family);
-    font-style : normal;
-    font-weight: normal;
-    font-size  : 16px;
-    line-height: 18px;
-    color      : #728399 !important;
-    display    : flex;
-    align-items: center;
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #728399 !important;
+  display: flex;
+  align-items: center;
 }
 
 .data svg {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .data b {
-    display    : flex;
-    align-items: center;
-    margin-left: 15px;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
 }

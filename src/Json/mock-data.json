@@ -1,51 +1,62 @@
-[{
-  "id": 1,
-  "title": "Dr",
-  "author": "Jeno Rigden",
-  "data": "6/3/2021"
-}, {
-  "id": 2,
-  "title": "Rev",
-  "author": "Asia Linskill",
-  "data": "3/7/2021"
-}, {
-  "id": 3,
-  "title": "Honorable",
-  "author": "Kirstyn Couling",
-  "data": "7/20/2021"
-}, {
-  "id": 4,
-  "title": "Ms",
-  "author": "Liva Handman",
-  "data": "10/28/2021"
-}, {
-  "id": 5,
-  "title": "Dr",
-  "author": "Sheff McAlinion",
-  "data": "2/22/2021"
-}, {
-  "id": 6,
-  "title": "Dr",
-  "author": "Eugine Kingsnod",
-  "data": "9/26/2021"
-}, {
-  "id": 7,
-  "title": "Ms",
-  "author": "Fania Gervaise",
-  "data": "7/3/2021"
-}, {
-  "id": 8,
-  "title": "Dr",
-  "author": "Karoly Bithell",
-  "data": "10/19/2021"
-}, {
-  "id": 9,
-  "title": "Ms",
-  "author": "Anissa Conrard",
-  "data": "1/20/2022"
-}, {
-  "id": 10,
-  "title": "Ms",
-  "author": "Aron O' Mullane",
-  "data": "3/12/2021"
-}]
+[
+  {
+    "id": 1,
+    "title": "Dr",
+    "author": "Jeno Rigden",
+    "data": "6/3/2021"
+  },
+  {
+    "id": 2,
+    "title": "Rev",
+    "author": "Asia Linskill",
+    "data": "3/7/2021"
+  },
+  {
+    "id": 3,
+    "title": "Honorable",
+    "author": "Kirstyn Couling",
+    "data": "7/20/2021"
+  },
+  {
+    "id": 4,
+    "title": "Ms",
+    "author": "Liva Handman",
+    "data": "10/28/2021"
+  },
+  {
+    "id": 5,
+    "title": "Dr",
+    "author": "Sheff McAlinion",
+    "data": "2/22/2021"
+  },
+  {
+    "id": 6,
+    "title": "Dr",
+    "author": "Eugine Kingsnod",
+    "data": "9/26/2021"
+  },
+  {
+    "id": 7,
+    "title": "Ms",
+    "author": "Fania Gervaise",
+    "data": "7/3/2021"
+  },
+  {
+    "id": 8,
+    "title": "Dr",
+    "author": "Karoly Bithell",
+    "data": "10/19/2021"
+  },
+  {
+    "id": 9,
+    "title": "Ms",
+    "author": "Anissa Conrard",
+    "data": "1/20/2022"
+  },
+  {
+    "id": 10,
+    "title": "Ms",
+    "author": "Aron O' Mullane",
+    "data": "3/12/2021"
+  }
+]

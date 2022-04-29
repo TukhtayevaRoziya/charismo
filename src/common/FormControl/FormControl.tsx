@@ -1,24 +1,8 @@
-import React from 'react'
+import React from "react";
 
 export const FormControl = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
-
-
-
-
-
-
-
-
-
-
-
-
+  return <div></div>;
+};
 
 // import { FC } from 'react'
 
@@ -36,7 +20,6 @@ export const FormControl = () => {
 //     const { meta, input, ...restProps } = props
 //     return <FormControl {...props} > <textarea {...input} {...restProps} /></FormControl >
 // }
-
 
 // export function createField<FormKeysType extends string>(
 //     name: FormKeysType | undefined,

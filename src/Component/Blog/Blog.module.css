@@ -1,49 +1,49 @@
 .body {
-    display        : flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .blog {
-    width          : 80%;
-    display        : flex;
-    flex-wrap      : wrap;
-    justify-content: space-between;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .blog a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .mainbox {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .navigator {
-    display: flex;
+  display: flex;
 }
 
 .navigator a div {
-    width    : 50px;
-    height   : 50px;
-    font-size: 16px;
+  width: 50px;
+  height: 50px;
+  font-size: 16px;
 }
 
 .main_block {
-    width: 45%;
+  width: 45%;
 }
 
 .searchBody {
-    width          : 50%;
-    display        : flex;
-    justify-content: center;
-    align-content  : flex-start;
-    flex-wrap      : wrap;
-    margin-top     : 5rem;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 5rem;
 }
 
 .search_box {
-    width        : 50%;
-    background   : #F4F7FE;
-    border-radius: 20px;
-    padding      : 28px 20px 38px;
+  width: 50%;
+  background: #f4f7fe;
+  border-radius: 20px;
+  padding: 28px 20px 38px;
 }

@@ -1,60 +1,59 @@
 .body {
-    width      : 100%;
-    display    : flex;
-    align-items: center;
-    padding    : 0 0 30px 0;
-
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 0 30px 0;
 }
 
 /* link home page  */
 
 .body a {
-    font-family    : var(--main-font-family);
-    font-style     : normal;
-    font-weight    : normal;
-    font-size      : 18px;
-    line-height    : 22px;
-    color          : #304560;
-    text-decoration: none;
-    margin         : 0;
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #304560;
+  text-decoration: none;
+  margin: 0;
 }
 
 /* strelka */
 
 .body b {
-    margin: 0 12px;
-    color : #CACCD2;
+  margin: 0 12px;
+  color: #caccd2;
 }
 
 /* Page name */
 
 .body h1 {
-    font-family: var(--main-font-family);
-    font-style : normal;
-    font-weight: bold;
-    font-size  : 16px;
-    line-height: 19px;
-    margin     : 0;
-    color      : #304560;
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+  color: #304560;
 }
 
-@media (min-width:0) and (max-width:449.9px) {
-    /* Page name */
+@media (min-width: 0) and (max-width: 449.9px) {
+  /* Page name */
 
-    .body h1 {
-        font-family: var(--main-font-family);
-        font-style : normal;
-        font-weight: bold;
-        font-size  : 10px;
-        line-height: 19px;
-        margin     : 0;
-        color      : #304560;
-    }
+  .body h1 {
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 19px;
+    margin: 0;
+    color: #304560;
+  }
 
-    /* link home page  */
+  /* link home page  */
 
-    .body a {
-        font-size      : 12px;
-        line-height    : 20px;
-    }
+  .body a {
+    font-size: 12px;
+    line-height: 20px;
+  }
 }

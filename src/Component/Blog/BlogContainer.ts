@@ -1,12 +1,12 @@
-import { connect } from "react-redux"
+import { connect } from "react-redux";
 
-import { AppStateType } from '../../Redux/Redux_Store'
-import BLog from './BLog'
+import { AppStateType } from "../../Redux/Redux_Store";
+import BLog from "./BLog";
 
-let mapStateToProps = (state:AppStateType) => {
+let mapStateToProps = (state: AppStateType) => {
   return {
-    maps: state.BlogPage.maps
-  }
-}
+    maps: state.BlogPage.maps,
+  };
+};
 
-export default  connect(mapStateToProps)(BLog)
+export default connect(mapStateToProps)(BLog);

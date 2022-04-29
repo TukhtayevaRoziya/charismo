@@ -1,10 +1,10 @@
-import { FC } from 'react'
-import { AllMaps } from './AllMaps'
+import { FC } from "react";
+import { AllMaps } from "./AllMaps";
 
 type PropsType = {
-    AllFiltered: any
-}
+  AllFiltered: any;
+};
 
-export const SearchAllMap:FC<PropsType> = ({AllFiltered}) => {
-    return <AllMaps filtered={AllFiltered}/>
-}
+export const SearchAllMap: FC<PropsType> = ({ AllFiltered }) => {
+  return <AllMaps filtered={AllFiltered} />;
+};

@@ -1,18 +1,19 @@
-import {  FC } from 'react';
+import { FC } from "react";
 
-import moduleName from './Titles.module.css'
+import moduleName from "./Titles.module.css";
 
 type PropsType = {
-    title: string
-    text: string
-}
+  title: string;
+  text: string;
+};
 
 const Titles: FC<PropsType> = ({ title, text }) => {
-    return (
-        <><h1  className={moduleName.title}>{title}</h1> 
-            <p className={moduleName.text}>{text}</p>
-        </>
-    )
-}
+  return (
+    <>
+      <h1 className={moduleName.title}>{title}</h1>
+      <p className={moduleName.text}>{text}</p>
+    </>
+  );
+};
 
-export default Titles
+export default Titles;

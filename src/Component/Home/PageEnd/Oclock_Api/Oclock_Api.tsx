@@ -1,7 +1,7 @@
 import axios from "axios";
 import React from "react";
 
-class Oclock_Api extends React.Component {
+class OclockApi extends React.Component {
     constructor(props: any) {
       super(props);
       this.state = {repos: []};
@@ -32,4 +32,4 @@ class Oclock_Api extends React.Component {
       );
     }
   }
-export default Oclock_Api
+export default OclockApi
