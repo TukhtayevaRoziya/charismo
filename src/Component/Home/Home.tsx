@@ -26,7 +26,6 @@ const UserInfo = (props: UserPropsType) => {
   };
   return (
     <h5 className={moduleName.Menu_Item} onClick={Logout}>
-      {" "}
       <b>{props.name[0]}</b>
     </h5>
   );
@@ -47,7 +46,7 @@ const Home: FC<PropsType> = ({ isAuth, name, UpdateIsAuthAC }) => {
             {isAuth ? (
               <UserInfo name={name} UpdateIsAuthAC={UpdateIsAuthAC} />
             ) : (
-              <Navlink href="/login" LinkName={"kirish"} />
+              <Navlink href="/login" LinkName={"Войти"} />
             )}
             <Navlink href="/" LinkName="Реферальная программа" />
           </div>

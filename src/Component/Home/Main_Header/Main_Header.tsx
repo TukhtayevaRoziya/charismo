@@ -4,13 +4,14 @@ import korzina from "../img/korzina.png";
 
 import moduleName from "./Main_Header.module.css";
 import { ImgTitle } from "./../Img_Title/Img_Title";
+import { NavLink } from 'react-router-dom';
 
 export function BlueNavbar() {
   return (
     <div className={moduleName.navbar_header}>
       <div className={moduleName.IconAndLink}>
         <div className={moduleName.Icon}>
-          <img src={sideIcon} alt="" />
+          <NavLink to='/charismo'> <img src={sideIcon} alt="" /></NavLink>
         </div>
         <div className={moduleName.HeaderLink}>
           <Navlink

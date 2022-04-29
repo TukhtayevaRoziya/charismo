@@ -6,7 +6,6 @@ import hairCare from './picture/hair_care.png'
 import hairCare1 from './picture/hairCare1.png'
 import TRZ from './picture/TRZ.png'
 import worldClass from './picture/worldClass.png'
-import 'aos/dist/aos.css';
 
 const OurPartners = () => {
 

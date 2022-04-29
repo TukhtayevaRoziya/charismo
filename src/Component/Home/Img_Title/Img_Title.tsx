@@ -11,7 +11,7 @@ export const ImgTitle = () => {
           text="Эффективные решения против выпадения и для роста волос, рекомендуемые профессионалами"
         />
         <div className={moduleName.bg_img}></div>
-        <NavLink className={moduleName.btn_click_body} to={"/btn"}>
+        <NavLink className={moduleName.btn_click_body} to={"/shop"}>
           <button>В магазин ➡</button>
         </NavLink>
       </div>
