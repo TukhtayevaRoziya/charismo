@@ -35,7 +35,7 @@ export function BlueNavbar() {
             LinkName="Отзывы"
           />
           <Navlink
-            href="/k"
+            href="/contact"
             activeClass={moduleName.HeaderActive}
             LinkName="Контакты"
           />

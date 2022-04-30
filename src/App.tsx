@@ -12,6 +12,7 @@ import Shop from "./Component/Shop/Shop";
 import "./App.css";
 // import axios from 'axios';
 // import { useState } from 'react';
+import { Contact } from './Component/contact/Contact';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Route path={"/answer"} render={() => <Answer />} />
       <Route path={"/reviews"} render={() => <Reviews />} />
       <Route path={"/blog"} render={() => <BlogContainer />} />
+      <Route path={"/contact"} render={() => <Contact />} />
       <Route path={"/login"} render={() => <LoginContainer />} />
       {/* <Book /> */}
       {/* <Shop2Sharp /> */}
