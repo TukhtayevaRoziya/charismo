@@ -35,6 +35,11 @@ export function BlueNavbar() {
             LinkName="Отзывы"
           />
           <Navlink
+            href="/blog"
+            activeClass={moduleName.HeaderActive}
+            LinkName="Блог"
+          />
+          <Navlink
             href="/contact"
             activeClass={moduleName.HeaderActive}
             LinkName="Контакты"
@@ -46,7 +51,7 @@ export function BlueNavbar() {
           <img src={korzina} alt="" />
         </div>
         <div className={moduleName.btn_body}>
-          <Navlink href="/mne" LinkName="Перезвоните мне" />
+          <a href="tel:+998905280770">Перезвоните мне</a>
         </div>
       </div>
     </div>

@@ -15,7 +15,7 @@
   border-bottom: 2px solid #e7e7e7;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #f4f7fe;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .IconAndLink {
-  width: 45%;
+  width: 50%;
 }
 
 .Icon {
@@ -36,7 +36,7 @@
 /* HeaderLink */
 
 .HeaderLink {
-  width: 70%;
+  width: 75%;
 }
 
 .HeaderLink a {

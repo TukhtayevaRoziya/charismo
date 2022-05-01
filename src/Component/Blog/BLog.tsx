@@ -4,6 +4,7 @@ import { Route, Switch } from "react-router-dom";
 import RouteInHomePage from "../../Acronyms/Route_In_HomePage";
 import { MainBlock1 } from "./Blocks/1/MainBlock1";
 import { MainBlock2 } from "./Blocks/2/MainBlock2";
+import PageEnd from './../Home/PageEnd/PageEnd';
 import { Search } from "./Search/Search";
 import { RouteBlog } from "./RouteBlog";
 import { MapType } from "../../types";
@@ -16,6 +17,7 @@ type PropsType = {
 
 const BLog: FC<PropsType> = ({ maps }) => {
   return (
+    <>
     <div className={moduleName.body}>
       <div className={moduleName.blog}>
         <div className={moduleName.main_block}>
@@ -46,6 +48,10 @@ const BLog: FC<PropsType> = ({ maps }) => {
         </div>
       </div>
     </div>
+    <div className={moduleName.pageEndBg}>
+        <PageEnd />
+      </div>
+    </>
   );
 };
 

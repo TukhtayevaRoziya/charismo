@@ -1,6 +1,7 @@
 .body {
   display: flex;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 
 .blog {
@@ -46,4 +47,8 @@
   background: #f4f7fe;
   border-radius: 20px;
   padding: 28px 20px 38px;
+}
+
+.pageEndBg {
+  background-color: #f4f7fe;
 }
