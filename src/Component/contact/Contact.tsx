@@ -27,9 +27,8 @@ export const Contact = () => {
         type="email"
         placeholder="E-mail"
       />
-      <input
+      <textarea
         className={styles.contact__inp_group__inp}
-        type="text"
         placeholder="Сообщение"
       />
       <div className={styles.contact__end_block}>

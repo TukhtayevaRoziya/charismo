@@ -1,10 +1,10 @@
 .contact {
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 5rem;
 }
 
 .contact__title {
-  font-family: "Gilroy";
+  font-family: var(--main-font-family);
   font-style: normal;
   font-weight: 700;
   font-size: 42px;
@@ -13,7 +13,7 @@
 }
 
 .contact__text {
-  font-family: "PT Root UI";
+  font-family: var(--main-font-family);
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -24,7 +24,7 @@
 .contact__inp_group {
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 .contact__inp_group__inp {
@@ -35,15 +35,32 @@
   box-sizing: border-box;
   border-radius: 8px;
   margin-bottom: 15px;
+  outline: none;
+  padding-left: 20px;
+  resize: none;
+  font-family: var(--main-font-family);
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%;
+  color: #4c5258;
 }
 
-.contact__end_block{
-    justify-content: space-between;
+textarea.contact__inp_group__inp {
+  height: 120px;
+  padding-top: 15px;
+}
+
+.contact__end_block {
+  justify-content: space-between;
 }
 
 .contact__end_block,
 .contact__end_block__check_block {
   display: flex;
+}
+
+.contact__end_block__check_block {
+  justify-content: space-around;
 }
 
 .contact__end_block__btn {
@@ -57,6 +74,22 @@
   font-weight: bold;
 }
 
-.contact__end_block__check_block{
-    align-items: center;
+.contact__end_block__check_block {
+  align-items: center;
+  width: 58%;
+}
+
+.contact__end_block__check_block input {
+  font-size: 25px;
+  width: 24px;
+  height: 24px;
+}
+
+.contact__end_block__check_block p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #000000;
 }
