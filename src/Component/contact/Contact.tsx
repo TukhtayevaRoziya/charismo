@@ -1,8 +1,9 @@
 import React from "react";
 
-import styles from "./Contact.module.css";
 import PageEnd from "./../Home/PageEnd/PageEnd";
 import RouteInHomePage from "./../../Acronyms/Route_In_HomePage";
+
+import styles from "./Contact.module.css";
 
 export const Contact = () => {
   return (
@@ -52,6 +53,5 @@ export const Contact = () => {
         <PageEnd />
       </div>
     </>
-    // <Finir
   );
 };
