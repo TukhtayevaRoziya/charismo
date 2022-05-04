@@ -37,7 +37,7 @@ const Home: FC<PropsType> = ({ isAuth, name, UpdateIsAuthAC }) => {
       <div className={moduleName.Header}>
         <header className={moduleName.header}>
           <div className={moduleName.header_1}>
-            <Navlink href="/" LinkName="Партнерам" />
+            <a href="charismo/#partner">Партнерам</a>
             <Navlink href="" LinkName="Центр обучения" />
             <Navlink href="/answer" LinkName="Вопросы и ответы" />
             <Navlink href="/" LinkName="Доставка и оплата" />

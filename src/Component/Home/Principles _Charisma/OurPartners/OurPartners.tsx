@@ -21,7 +21,7 @@ const OurPartners = () => {
 		<img src={a.img} alt="" />
 	</div>)
     return (
-        <div className={moduleName.body}>
+        <div className={moduleName.body} id={'partner'}>
             <div className={moduleName.our_partners}>
                 <div>
                     <h1 className={moduleName.title}>Наши партнёры</h1>

@@ -140,11 +140,12 @@ textarea.contact__inp_group__inp {
 }
 
 @media (min-width: 601px) and (max-width: 1300.9px) {
-  .contact__end_block__check_block p {
+ .contact__end_block__check_block p {
     font-size: 14px;
     line-height: 20px;
-  }
-  .contact {
+    margin-left: 15px;
+    }
+ /* .contact {
     width: 90%;
     margin: 0 auto 5rem;
   }
@@ -152,5 +153,5 @@ textarea.contact__inp_group__inp {
   .contact__end_block__check_block {
     align-items: center;
     width: 65%;
-  }
+  } */
 }
